@@ -1,0 +1,157 @@
+body{
+    text-align: center;
+    padding: 0;
+}
+.menu{
+    text-align: center;
+}
+a{
+    color: black;
+    text-decoration: none;
+    margin: 20px;
+}
+.header{
+    background-image: url(header.jpg);
+    padding: 200px 0;
+    margin: 0 200px;
+    text-align: center;
+}
+h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+h1{
+    /* color: white; */
+    padding: 10px;
+    background-color: white;
+    border-radius: 7px;
+}
+.about p{
+    padding: 10px;
+    background-color: white;
+    border-radius: 7px;
+    display: inline-block;
+}
+.header button{
+    background-image: url(button.jpg);
+    box-shadow: 10px 5px 5px black;
+    border-radius: 7px;
+    padding: 15px 30px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+.header button:hover{
+    box-shadow: 10px 15px 15px black;
+}
+.about{
+    text-align: center;
+}
+.about p{
+display: inline-block;
+width: 50%;
+}
+img{
+    width: 300px;
+}
+.team{
+    text-align: center;
+}
+.CARDS{
+    display: inline-block;
+    box-shadow: 1px 4px 14px 3px rgba(34, 60, 80, 0.2);
+    width: 20%;
+    min-width: 250px;
+    margin: 10px;
+    padding: 7px;
+    text-align: left;
+}
+.CARDS img{
+    width: 100%;
+}
+.bold{
+    font-weight: bold;
+    font-size: larger;
+}
+.opacity{
+    opacity: .5;
+}
+.CARDS button{
+width: 100%;
+height: 50px;
+background-color: cornflowerblue;
+border-radius: 15px;
+color: black;
+cursor: pointer;
+}
+.tarifs{
+    background-color: rgb(114, 114, 114);
+    text-align: center;
+}
+.tarif{
+    display: inline-block;
+    background-color: white;
+    text-align: center;
+    border-radius: 3px;
+    width: 30%;
+    margin: 15px;
+}
+.TN{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px;
+    margin-top: 0;
+}
+.tarif p{
+    border-bottom: 1px grey solid;
+}
+.tarif button{
+    width: 80px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+}
+/* MEdia */
+@media(max-width: 1250px){
+    .header{
+        margin: 0;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+}
+
+@media(max-width: 550px){
+    .menu a{
+        display: block;
+        font-size: 25px;
+        text-align: center;
+    }
+    .tarif{
+        min-width: 250px;
+    }
+}
+.Contacts img{
+    width: 15px;
+}
+.Contacts p{
+    display: inline-block;
+    margin: 5px;
+
+}
+.Contacts{
+    text-align: left;
+}
+input{
+    width: 95%;
+    margin: 13px 0;
+}
+button{
+   background-color: black; 
+   color: white;
+   height: 40px;
+   width: 250px;
+   border-radius: 15px;
+}
+
+
